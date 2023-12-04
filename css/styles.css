@@ -1,3 +1,52 @@
-.body{
-    font-family:"Roboto";
+/*Body*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color:#2E2F42;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.social-links a{
+    color:#2E2F42;
+}
+.social-links a:hover {
+    color:#404BBF
+}
+.social-links a:focus{
+    color:#404BBF;
+}
+.address-links a{
+    color:#2E2F42;
+    
+}
+.address-links a:hover{
+    color:#404BBF;
+}
+.address-links a:focus {
+    color: #404BBF;
+}
+.button button{
+color:#404BBF;
+background-color: #F4F4FD;
+}
+.button button:hover{
+    color:#E7E9FC;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.button button:focus{
+    color:#E7E9FC;
+    background-color: #404BBF;
+}
+
+/*Footer*/
+
+.footer p:hover{
+    color:#404BBF;
+}
+.footer p:focus{
+    color:#404BBF;
+}
+.footer a{
+    font-weight: 800;
 }
