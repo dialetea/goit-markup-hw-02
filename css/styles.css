@@ -1,4 +1,4 @@
-/*Body*/
+/*Header*/
 :root{
     --brand-color:#434455;
 }
@@ -12,7 +12,6 @@
     color:#4d5ae5;
     text-decoration: none;
 }
-
 .studio{
     font-weight: 500;
     font-size: 16px;
@@ -20,13 +19,10 @@
     letter-spacing: 0.02em;
     color:#2E2F42;
 }
+.span{
+    color:#2E2F42;
+}
 
-.list{
-    list-style: none;
-}
-.accent {
-    color:#2e2f42;
-}
 .body {
   font-family: "Roboto", sans-serif;
   color:#434455;
@@ -34,61 +30,134 @@
   line-height: 1.5;
   background-color: #FFFFFFFF;
 }
-.social-links a{
+.list-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#2E2F42;
 }
-.social-links a:hover {
-    color:#404BBF
-}
-.social-links a:focus{
-    color:#404BBF;
-}
-/*Address*/
-.address-list{
-    font-style: normal;
-}
-.list-links a{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;  
-}
-
-.link{
+.link-studio{
     text-decoration: none;
 }
-.link:hover, link:focus{
-    color:#404BBF;
+list.studio:hover, .list-studio:focus {
+    color: #404bbf;
+}
+.list-portfolio {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.link-portfolio{
+    text-decoration: none;
 }
 
-/*First Section*/
+.list-portfolio:hover, .list-portfolio:focus {
+    color:#404bbf;
+}
 
-.first-section{
+.list-contacts{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.link-contacts {
+    text-decoration: none;
+}
+
+.list-contacts:hover, .list-contacts:focus{
+    color: #404bbf;
+}
+
+.mail{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.link-mail{
+    text-decoration: none;
+}
+.link-mail:hover, .link-mail:focus{
+    color:#404bbf;
+
+}
+.first-section {
     background-color: #2E2F42;
 }
-
-/*Button*/
-.button button{
-color:#404BBF;
-background-color: #F4F4FD;
+.h1 title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#FFFFFFFF;
 }
-.button button:hover{
-    color:#E7E9FC;
-    background-color: #404BBF;
+.button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#FFFFFFFF;
     cursor: pointer;
 }
-.button button:focus{
-    color:#E7E9FC;
-    background-color: #404BBF;
+.button:hover, .button:focus {
+    color: #404bbf;
+}
+.name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+.paragraph{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
+}
+.title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2E2F42;
+}
+.images {
+    list-style: none;
+}
+.fourth section{
+    background-color: #F4F4FD;
 }
 
-/*Footer*/
-
-.footer p:hover{
-    color:#404BBF;
+.list-item{
+    list-style: none;
+    background-color: #FFFFFFFF;
 }
-.footer p:focus{
-    color:#404BBF;
+.name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42;
 }
-.footer a{
-    font-weight: 800;
+.job{
+font-size:16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer{
+    background-color: #2E2F42;
+}
+.footer p{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
