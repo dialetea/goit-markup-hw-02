@@ -1,10 +1,38 @@
 /*Body*/
+:root{
+    --brand-color:#434455;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    text-decoration: none;
+}
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color:#2E2F42;
+.studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+
+.list{
+    list-style: none;
+}
+.accent {
+    color:#2e2f42;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color:#434455;
   font-weight: 400;
   line-height: 1.5;
+  background-color: #FFFFFFFF;
 }
 .social-links a{
     color:#2E2F42;
@@ -15,16 +43,30 @@ body {
 .social-links a:focus{
     color:#404BBF;
 }
-.address-links a{
-    color:#2E2F42;
-    
+/*Address*/
+.address-list{
+    font-style: normal;
 }
-.address-links a:hover{
+.list-links a{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;  
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover, link:focus{
     color:#404BBF;
 }
-.address-links a:focus {
-    color: #404BBF;
+
+/*First Section*/
+
+.first-section{
+    background-color: #2E2F42;
 }
+
+/*Button*/
 .button button{
 color:#404BBF;
 background-color: #F4F4FD;
