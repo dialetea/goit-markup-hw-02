@@ -1,6 +1,7 @@
 /*Header*/
 :root{
     --brand-color:#434455;
+    --background-color: #2e2f42;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -20,7 +21,7 @@
     color:#2E2F42;
 }
 .span{
-    color:#2E2F42;
+    color: #f4f4f4fd;
 }
 
 .body {
@@ -30,46 +31,20 @@
   line-height: 1.5;
   background-color: #FFFFFFFF;
 }
-.list-studio {
+.list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
 }
-.link-studio{
+.link{
     text-decoration: none;
-}
-list.studio:hover, .list-studio:focus {
-    color: #404bbf;
-}
-.list-portfolio {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.link-portfolio{
-    text-decoration: none;
-}
+    color:#434455;
 
-.list-portfolio:hover, .list-portfolio:focus {
-    color:#404bbf;
-}
 
-.list-contacts{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
 }
-.link-contacts {
-    text-decoration: none;
-}
-
-.list-contacts:hover, .list-contacts:focus{
+.list:hover, .list:focus {
     color: #404bbf;
 }
 
@@ -78,22 +53,24 @@ list.studio:hover, .list-studio:focus {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.link-mail{
-    text-decoration: none;
-}
-.link-mail:hover, .link-mail:focus{
+
+.link:hover, .link:focus{
     color:#404bbf;
 
 }
-.first-section {
-    background-color: #2E2F42;
+.address{
+    font-style: normal;
 }
-.h1 title{
+
+.first section {
+    background-color: var(--background-color);
+}
+.main title{
+    color:#FFFFFFFF;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#FFFFFFFF;
 }
 .button {
     background-color: #4d5ae5;
@@ -105,8 +82,11 @@ list.studio:hover, .list-studio:focus {
     color:#FFFFFFFF;
     cursor: pointer;
 }
-.button:hover, .button:focus {
+.button:hover {
     color: #404bbf;
+}
+.button:focus{
+    color:#404bbf;
 }
 .name{
 font-weight: 500;
@@ -136,10 +116,7 @@ color:#434455;
     background-color: #F4F4FD;
 }
 
-.list-item{
-    list-style: none;
-    background-color: #FFFFFFFF;
-}
+
 .name{
 font-weight: 500;
 font-size: 20px;
@@ -147,17 +124,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2E2F42;
 }
-.job{
-font-size:16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
+
 .footer{
     background-color: #2E2F42;
-}
-.footer p{
-    line-height: 1.5;
-    color:#F4F4FD;
-    letter-spacing: 0.02em;
 }
