@@ -62,7 +62,7 @@
     font-style: normal;
 }
 
-.first section {
+.first-section {
     background-color: var(--background-color);
 }
 .main title{
@@ -112,7 +112,7 @@ color:#434455;
 .images {
     list-style: none;
 }
-.fourth section{
+.fourth-section{
     background-color: #F4F4FD;
 }
 
