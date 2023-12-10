@@ -66,7 +66,7 @@
 .first-section {
     background-color: var(--background-color);
 }
-.main title{
+.main-title{
     color:#FFFFFFFF;
     font-size: 56px;
     line-height: 1.07;
@@ -83,12 +83,10 @@
     color:#FFFFFFFF;
     cursor: pointer;
 }
-.button:hover {
+.button:hover, button:focus {
     color: #404bbf;
 }
-.button:focus{
-    color:#404bbf;
-}
+
 .name{
 font-weight: 500;
 font-size: 20px;
@@ -143,4 +141,12 @@ color:#2E2F42;
 
 .footer{
     background-color: #2E2F42;
+}
+.footer .span {
+    background-color: #f4f4f4fd;
+}
+.footer .logo {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
