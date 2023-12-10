@@ -32,10 +32,7 @@
   background-color: #FFFFFFFF;
 }
 
-.nav-list{
-    list-style: none;
 
-}
 .link{
    
     font-weight: 500;
@@ -43,26 +40,29 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    list-style: none;
+    
+}
 
+.list{
+    font-weight: 500;
+    font-size:20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+    list-style: none;
 
 }
 .list:hover, .list:focus {
     color: #404bbf;
 }
 
-.mail{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
-.link:hover, .link:focus{
-    color:#404bbf;
-
-}
 .address{
     font-style: normal;
+}
+
+.address .link{
+    text-decoration: none;
 }
 
 .first-section {
@@ -86,7 +86,8 @@
     cursor: pointer;
 }
 .button:hover, button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
+
 }
 
 .name{
@@ -149,6 +150,10 @@ color:#2E2F42;
 }
 .footer .logo {
     line-height: 1.5;
-    color:#F4F4FD;
+    color: #4d5ae5;
     letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
 }
