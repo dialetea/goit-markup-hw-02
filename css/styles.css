@@ -1,7 +1,7 @@
 /*Header*/
 :root{
     --brand-color:#434455;
-    --background-color: #2e2f42;
+    --paragraph-color: #434455;
 }
 .logo-link{
     font-family: "Raleway", sans-serif;
@@ -174,13 +174,6 @@ color:#2E2F42;
     list-style: none;
 }
 
-.list-element .title-element {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:#2e2f42;
-}
 .paragraph-element{
     font-size: 16px;
     line-height: 1.5;
@@ -190,4 +183,11 @@ color:#2E2F42;
 }
 .link-elemment {
     text-decoration: none;
+}
+.title-element {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
