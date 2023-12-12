@@ -170,26 +170,24 @@ color:#2E2F42;
     letter-spacing: 0.03em;
 
 }
-.first-row-list{
+.list-element{
     list-style: none;
 }
-.paragraph-portfolio-link{
-    text-decoration: none;
-}
-.title-portfolio-second title{
+
+.list-element .title-element {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.paragraph-portfolio {
+.paragraph-element{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 
 }
-.first-row link {
+.link-elemment {
     text-decoration: none;
 }
