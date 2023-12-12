@@ -3,7 +3,7 @@
     --brand-color:#434455;
     --background-color: #2e2f42;
 }
-.logo{
+.logo-link{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -11,10 +11,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-}
-.link{
     text-decoration: none;
 }
+
+
 .span{
     color: #2e2f42;
 }
@@ -71,7 +71,7 @@
     text-align: center;
     letter-spacing: 0.02em;
 }
-.button {
+.button-portfolio {
     color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -81,12 +81,16 @@
     background-color: #F4F4FD;
     cursor: pointer;
 }
-.button:hover, button:focus {
-    color: #404bbf;
+.button-portfolio:hover, .button-portfolio:focus {
+    color: #FFFFFFFF;
+    background-color: #404BBF;
 
 }
-.button{
-    cursor: pointer;
+.first-section-portfolio .list{
+    list-style: none;
+}
+.list-button{
+    list-style: none;
 }
 
 .name{
@@ -101,6 +105,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+}
+.paragraph-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    
 }
 .title{
     font-size: 36px;
@@ -117,10 +128,10 @@ color:#434455;
     background-color: #F4F4FD;
 }
 .fourth-section .title{
- 
+            
             font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+            font-size: 36px;
+            line-height: 1.11;
             letter-spacing: 0.02em;
             color: #2E2F42;
         
@@ -129,13 +140,7 @@ color:#434455;
 .fourth-section .list{
     background-color: #FFFFFFFF;
 }
-.fourth-section .name{
-    font-weight:500;
-    font-size:20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:#2e2f42;
-}
+
 .fourth-section .paragraph{
     font-size: 16px;
     line-height: 1.5;
