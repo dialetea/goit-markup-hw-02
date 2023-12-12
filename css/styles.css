@@ -61,7 +61,7 @@
 
 
 
-.first-section {
+.section-portfolio {
     background-color: var(--background-color);
 }
 .main-title{
@@ -170,13 +170,13 @@ color:#2E2F42;
     letter-spacing: 0.03em;
 
 }
-.second-section-portfolio-list{
+.first-row-list{
     list-style: none;
 }
 .paragraph-portfolio-link{
     text-decoration: none;
 }
-.title-portfolio-second {
+.title-portfolio-second title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -189,4 +189,7 @@ color:#2E2F42;
     letter-spacing: 0.02em;
     color:#434455;
 
+}
+.first-row link {
+    text-decoration: none;
 }
