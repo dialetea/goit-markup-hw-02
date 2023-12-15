@@ -153,8 +153,8 @@ color:#434455;
 }
 .fourth-section{
     background-color: #F4F4FD;
-}
-.fourth-section .title{
+} 
+.title{
             
             font-weight: 500;
             font-size: 36px;
@@ -163,18 +163,12 @@ color:#434455;
             color: #2E2F42;
         
 }
-.fourth-section .list .name{
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
+
 .title .list{
     background-color: #FFFFFFFF;
 }
 
-.fourth-section .list .paragraph{
+.paragraph{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
