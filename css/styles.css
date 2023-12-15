@@ -154,6 +154,9 @@ color:#434455;
 .fourth-section{
     background-color: #F4F4FD;
 } 
+.list-item{
+    background-color: #FFFFFFFF;
+}
 .title{
             
             font-weight: 500;
@@ -163,12 +166,7 @@ color:#434455;
             color: #2E2F42;
         
 }
-.fourth-section .name{
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+
 .title .list{
     background-color: #FFFFFFFF;
 }
@@ -179,12 +177,7 @@ color:#434455;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.fourth-section .paragraph{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .name{
 font-weight: 500;
 font-size: 20px;
