@@ -13,7 +13,7 @@
     color:#4d5ae5;
     text-decoration: none;
 }
-.navigation .link{
+.navigation .list .link{
     color: #2e2f42;
 }
 .accent-header{
@@ -84,7 +84,7 @@ body {
 }
 
 
-.address-list{
+.address {
     font-style: normal;
 }
 
@@ -163,7 +163,7 @@ color:#434455;
             color: #2E2F42;
         
 }
-.fourth-section .list .name{
+.fourth-section .list li .name{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -174,7 +174,7 @@ color:#434455;
     background-color: #FFFFFFFF;
 }
 
-.fourth-section .list .paragraph{
+.fourth-section .list li .paragraph{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -195,7 +195,7 @@ color:#2E2F42;
 .footer .span {
     background-color: #f4f4f4fd;
 }
-.paragraph-footer {
+.footer .paragraph-footer {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
