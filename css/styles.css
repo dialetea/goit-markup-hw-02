@@ -3,7 +3,7 @@
     --brand-color:#434455;
     --paragraph-color: #434455;
 }
-.logo-link{
+.link-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -12,6 +12,9 @@
     text-transform: uppercase;
     color:#4d5ae5;
     text-decoration: none;
+}
+.navigation .link{
+    color: #2e2f42;
 }
 .accent-header{
     color: #2e2f42;
@@ -161,7 +164,7 @@ color:#434455;
         
 }
 
-.fourth-section .list{
+.title .list{
     background-color: #FFFFFFFF;
 }
 
