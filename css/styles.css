@@ -47,7 +47,7 @@
     color: #2e2f42;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color:#434455;
   font-weight: 400;
@@ -163,17 +163,24 @@ color:#434455;
             color: #2E2F42;
         
 }
-
+.fourth-section .list .name{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 .title .list{
     background-color: #FFFFFFFF;
 }
 
-.fourth-section .paragraph{
+.fourth-section .list .paragraph{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
+
 .name{
 font-weight: 500;
 font-size: 20px;
