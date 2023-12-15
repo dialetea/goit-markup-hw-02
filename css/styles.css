@@ -1,4 +1,4 @@
-/*Header*/
+
 :root{
     --brand-color:#434455;
     --paragraph-color: #434455;
@@ -13,6 +13,12 @@
     color:#4d5ae5;
     text-decoration: none;
 }
+.accent-header{
+    color: #2e2f42;
+}
+.accent-footer {
+    color:#f4f4f4fd;
+}
 
 .first-section {
     background-color: #2e2f42;
@@ -26,6 +32,7 @@
     letter-spacing: 0.04em;
     color:#FFFFFFFF;
 }
+
 .button:hover, .button:focus{
     background-color: #404BBF;
 }
@@ -52,6 +59,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
     
 }
 .link:hover, .link:focus{
@@ -196,7 +204,7 @@ color:#2E2F42;
     color:#434455;
 
 }
-.link-elemment {
+.link-element {
     text-decoration: none;
 }
 .title-element {
