@@ -23,6 +23,7 @@
 .first-section {
     background-color: #2e2f42;
 }
+
 .button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -80,7 +81,7 @@
 }
 
 
-.address{
+.address-list{
     font-style: normal;
 }
 
@@ -184,13 +185,10 @@ color:#2E2F42;
 .footer .span {
     background-color: #f4f4f4fd;
 }
-.footer .logo {
+.paragraph-footer {
     line-height: 1.5;
-    color: #4d5ae5;
+    color: #F4F4FD;
     letter-spacing: 0.02em;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
 
 }
 .list-element{
@@ -204,9 +202,7 @@ color:#2E2F42;
     color:#434455;
 
 }
-.link-element {
-    text-decoration: none;
-}
+
 .title-element {
     font-weight: 500;
     font-size: 20px;
